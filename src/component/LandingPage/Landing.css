@@ -91,3 +91,28 @@
     border-radius: 5px;
   }
 }
+@media (max-width: 576px) {
+  .landingPageBody {
+    padding: 10px;
+    gap: 20px;
+  }
+  .leftside {
+    height: auto;
+  }
+  .leftside p {
+    font-size: 1.3rem;
+    padding: 10px;
+    /* margin-right: 100px; */
+    text-align: start;
+  }
+  .leftside p span {
+    font-size: 2rem;
+  }
+  .role {
+    font-size: 2rem;
+  }
+  .rightside img {
+    height: 250px;
+    width: 340px;
+  }
+}

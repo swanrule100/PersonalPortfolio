@@ -81,12 +81,21 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+  .mainImgSection {
+    height: 65vh;
+  }
   .titleName {
     font-size: 30px;
   }
-
+  .swiper {
+    width: 100%;
+  }
   .imageItem img {
-    max-width: 200px;
+    max-width: 230px;
+  }
+  .titleName p {
+    font-size: 0.85rem;
+    text-align: center;
   }
 }

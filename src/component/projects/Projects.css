@@ -169,3 +169,25 @@
     text-align: center;
   }
 }
+@media (max-width: 576px) {
+  #projectsBody {
+    height: 115vh;
+  }
+  .card {
+    padding: 10px;
+    height: 43vh;
+    width: 60%;
+  }
+  .cardsDetail {
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  .projectHeading p {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  .projectHeading {
+    font-size: 40px;
+  }
+}

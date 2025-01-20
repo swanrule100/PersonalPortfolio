@@ -83,3 +83,9 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 576px) {
+  .toolsbody {
+    height: 57vh;
+  }
+}
