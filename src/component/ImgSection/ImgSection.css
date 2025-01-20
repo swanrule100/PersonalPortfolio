@@ -1,0 +1,92 @@
+.mainImgSection {
+  background: url("https://www.transparenttextures.com/patterns/circles.png");
+  background-color: white;
+  text-align: center;
+  height: 85vh;
+  padding: 20px;
+}
+
+.titleName {
+  font-size: 40px;
+  color: rgb(93, 0, 133);
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-family: "Titillium Web", serif;
+  text-transform: capitalize;
+}
+.titleName p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  max-width: 1000px;
+  color: rgb(138, 0, 197);
+  margin: 0 auto;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/* Swiper styles */
+.swiper {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageItem {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.imageItem img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.imageItem p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .mainImgSection {
+    height: 55vh;
+  }
+  .titleName {
+    font-size: 20px;
+  }
+  .titleName p {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .swiper {
+    width: 100%;
+  }
+
+  .imageItem img {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titleName {
+    font-size: 30px;
+  }
+
+  .imageItem img {
+    max-width: 200px;
+  }
+}

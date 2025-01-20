@@ -1,0 +1,12 @@
+#root {
+  margin: 0px;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  display: none;
+}

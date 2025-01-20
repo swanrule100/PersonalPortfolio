@@ -1,0 +1,47 @@
+#resumeDiv {
+  background: url("https://www.transparenttextures.com/patterns/cardboard.png");
+  background-color: rgb(146, 0, 224);
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.HeadingH1 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: "Titillium Web", serif;
+  text-transform: capitalize;
+}
+.DwnldButton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.DwnldButton a {
+  margin: 0 auto;
+  text-decoration: none;
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  color: rgba(88, 1, 107, 0.667);
+  font-weight: bold;
+  font-family: "Poppins", serif;
+}
+.DwnldButton a:hover {
+  color: white;
+  background-color: rgb(146, 0, 224);
+  border: 1px solid white;
+  transform: scale(1.2);
+  transition: 0.7s ease-in;
+  transition: 0.7s ease-out;
+}
+h3 {
+  color: white;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
