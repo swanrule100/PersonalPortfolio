@@ -8,6 +8,7 @@ const roles = [
   "Graphic Designer.",
   "Content Creator.",
 ];
+const logoImg = [{ src: "myImge.jpg", title: "my image" }];
 
 function Landing() {
   const [currentRole, setcurrentRole] = useState(0);
@@ -36,12 +37,11 @@ function Landing() {
           </p>
         </div>
 
-        <div className="rightside">
-          <img
-            src="https://images.pexels.com/photos/1181275/pexels-photo-1181275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="my image"
-          />
-        </div>
+        {logoImg.map((imge) => (
+          <div className="rightside">
+            <img src={imge.src} alt="my image" />
+          </div>
+        ))}
       </div>
     </div>
   );
